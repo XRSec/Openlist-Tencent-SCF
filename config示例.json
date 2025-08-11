@@ -1,0 +1,22 @@
+{
+  "database": {
+    "type": "mysql",
+    "host": "sqlpub.com",
+    "port": 3306,
+    "user": "MyDB",
+    "password": "MyDBPass",
+    "name": "MyDB",
+    "db_file": "",
+    "table_prefix": "x_",
+    "ssl_mode": "",
+    "dsn": "MyDB:MyDBPass@tcp(sqlpub.com:3306)/MyDB?charset=utf8mb4\u0026timeout=5000ms\u0026readTimeout=5000ms\u0026writeTimeout=5000ms\u0026parseTime=True\u0026loc=Asia%2FShanghai"
+  },
+  "scheme": {
+    "http_port": 5244
+  },
+  "temp_dir": "/tmp/openlist/temp",
+  "bleve_dir": "/tmp/openlist/bleve",
+  "log": {
+    "name": "/tmp/openlist/log/log.log"
+  }
+}
